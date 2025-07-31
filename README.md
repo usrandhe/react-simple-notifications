@@ -1,11 +1,11 @@
-# React Toast Notifications
+# React Simple Notifications
 
 A flexible and customizable toast notification component for React applications.
 
 ## Installation
 
 ```bash
-npm install react-toast-notifications
+npm install react-simple-notifications
 ```
 
 ## Quick Start
@@ -14,7 +14,7 @@ npm install react-toast-notifications
 
 ```jsx
 import React from 'react';
-import { ToastProvider } from 'react-toast-notifications';
+import { ToastProvider } from 'react-simple-notifications';
 import App from './App';
 
 function Root() {
@@ -32,7 +32,7 @@ export default Root;
 
 ```jsx
 import React from 'react';
-import { useToast } from 'react-toast-notifications';
+import { useToast } from 'react-simple-notifications';
 
 function MyComponent() {
   const toast = useToast();
