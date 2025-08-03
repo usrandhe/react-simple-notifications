@@ -2,17 +2,20 @@
 
 A flexible and customizable toast notification component for React applications.
 
+[Hosted Example](https://react-simple-notification.netlify.app/)
+
+
 ## Installation
 
 ```bash
 npm install react-simple-notifications
 ```
 
-```
 **Note:** 
 > If you encounter build errors related to Rollup or native modules (e.g on Netlify/Vercel), use Node.js 20 or 18 for your build environment.  
 > This is a known issue with Rollup and Node.js 22+.
-```
+<span style="color: red;">text</span> 
+
 
 ## Quick Start
 
