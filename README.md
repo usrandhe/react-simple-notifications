@@ -8,6 +8,12 @@ A flexible and customizable toast notification component for React applications.
 npm install react-simple-notifications
 ```
 
+```
+**Note:** 
+> If you encounter build errors related to Rollup or native modules (e.g on Netlify/Vercel), use Node.js 20 or 18 for your build environment.  
+> This is a known issue with Rollup and Node.js 22+.
+```
+
 ## Quick Start
 
 ### 1. Import the CSS (Required for all projects)
@@ -25,6 +31,7 @@ import 'react-simple-notifications/dist/index.css';
 ```jsx
 import React from 'react';
 import { ToastProvider } from 'react-simple-notifications';
+import 'react-simple-notifications/dist/index.css';
 import App from './App';
 
 function Root() {

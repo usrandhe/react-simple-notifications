@@ -1,6 +1,6 @@
 {
   "name": "react-simple-notifications",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A flexible and customizable toast notification component for React applications",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -22,7 +22,7 @@
     "message",
     "component"
   ],
-  "author": "Your Name",
+  "author": "Umesh",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
