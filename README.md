@@ -31,13 +31,13 @@ import 'react-simple-notifications/dist/index.css';
 ```jsx
 import React from 'react';
 import { ToastProvider } from 'react-simple-notifications';
+import MyComponent from './MyComponent';
 import 'react-simple-notifications/dist/index.css';
-import App from './App';
 
 function Root() {
   return (
     <ToastProvider position="top-right" maxToasts={5}>
-      <App />
+      <MyComponent />
     </ToastProvider>
   );
 }
